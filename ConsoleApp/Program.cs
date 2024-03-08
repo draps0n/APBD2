@@ -6,14 +6,14 @@ Console.WriteLine(GetMax([1, 2, 3, 4, 5]));
 
 static double GetAvg(int[] arr)
 {
-    int sum = 0;
+    int dodawanko = 0;
 
     foreach (int i in arr)
     {
-        sum += i;
+        dodawanko += i;
     }
 
-    return (double) sum / arr.Length;
+    return (double) dodawanko / arr.Length;
 }
 
 static int GetMax(int[] arr)
